@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>figma03</title>
+  <link rel="stylesheet" href="/figma03.css" />
+</head>
+
+<body>
+  <div class="left-side">
+    <img src="/Logo.png" alt="site logo" id="logo" />
+    <p id="title">For Individuals</p>
+    <p id="text">
+      Start benefiting from the wellness experience. For <br> companies looking on increasing productivity, and
+      improving<br> organization wellness.
+
+    </p>
+  </div>
+  <div class="right-side">
+    <div class="user-details">
+      <div class="user-input">
+        <div class="input-name">First Name</div>
+        <input type="text" name="fname" id="fname" class="input" placeholder="Tolu">
+      </div>
+      <div class="user-input">
+        <div class="input-name">Last Name</div>
+        <input type="text" name="lname" id="lname" class="input">
+      </div>
+    </div>
+
+    <div class="user-details">
+      <div class="user-input">
+        <div class="input-name">Gender</div>
+        <select name="gender" id="gender" class="input">
+          <option value="select" id="select">Select here</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+      </div>
+      <div class="user-input">
+        <div class="input-name">Date of Birth</div>
+        <input type="date" name="dob" id="dob" placeholder="Select here" class="input">
+      </div>
+    </div>
+    <div class="user-details">
+      <div class="user-input">
+        <div class="input-name">Weight (KG)</div>
+        <input type="text" name="weight" id="weight" placeholder="Enter Weight" class="input">
+      </div>
+
+      <div class="user-input">
+        <div class="input-name">Height (CM)</div>
+        <input type="text" name="height" id="height" placeholder="Enter height here.." class="input">
+      </div>
+    </div>
+    <div class="flex">
+      <div>
+        <div class="input-name">Activity Level</div>
+        <select name="activity" id="activity" class="long-input">
+          <option value="select">Select here</option>
+        </select>
+      </div>
+
+      <div>
+        <div class="input-name">Password</div>
+        <input type="text" name="password" id="password" class="long-input">
+        <div id="password-icon"></div>
+      </div>
+
+      <div>
+        <input type="submit" value="Register" id="register">
+      </div>
+    </div>
+
+    <p class="terms">
+      By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+    </p>
+    <p id="agree"> <strong>By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a
+          href="#">Privacy Policy</a></strong></p>
+  </div>
+
+</body>
+
+</html>
