@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: 'Brown';
-  src: url(/FONTS/brownpro-bold.otf);
+  src: url(/Assignment2/Font-family/brownpro-bold.otf);
 }
 
 @font-face {
   font-family: 'Brown light';
-  src: url(/FONTS/brownpro-regular.otf);
+  src: url(/Assignment2/Font-family/brownpro-regular.otf);
 }
 
 @font-face {
   font-family: 'Sofia pro';
-  src: url(FONTS/Fonts/sofiapro-light.otf);
+  src: url(/Assignment2/Font-family/sofiapro-light.otf);
 }
 
 @font-face {
   font-family: 'Brown thin';
-  src: url(/FONTS/brownpro-thin.otf);
+  src: url(/Assignment2/Font-family/brownpro-thin.otf);
 }
 
 
@@ -150,7 +150,7 @@ body {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-image: url(/Form/Filled/Form/Filled/edit/show.png);
+  background-image: url(/Assignment2/show.png);
   background-size: cover;
 }
 
