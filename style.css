@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: 'Brown';
-  src: url(/Assignment2/Font-family/brownpro-bold.otf);
+  src: url(./Font-family/brownpro-bold.otf);
 }
 
 @font-face {
   font-family: 'Brown light';
-  src: url(/Assignment2/Font-family/brownpro-regular.otf);
+  src: url(./Font-family/brownpro-regular.otf);
 }
 
 @font-face {
   font-family: 'Sofia pro';
-  src: url(/Assignment2/Font-family/sofiapro-light.otf);
+  src: url(./Font-family/sofiapro-light.otf);
 }
 
 @font-face {
   font-family: 'Brown thin';
-  src: url(/Assignment2/Font-family/brownpro-thin.otf);
+  src: url(./Font-family/brownpro-thin.otf);
 }
 
 
