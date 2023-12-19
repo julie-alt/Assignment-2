@@ -145,7 +145,7 @@ body {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-image: url(/Assignment2/show.png);
+  background-image: url(./show.png);
   background-size: cover;
 }
 
